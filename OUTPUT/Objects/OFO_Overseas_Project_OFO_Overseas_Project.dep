@@ -1,0 +1,854 @@
+Dependencies for Project 'OFO_Overseas_Project', Target 'OFO_Overseas_Project': (DO NOT MODIFY !)
+F (..\APP\main.c)(0x58E4E97C)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I..\APP\include -I..\Device\include -I..\nRF_BLE\inc -I..\nRF_Drivers\inc -I..\nRF_Libraries\inc -I..\nRF_SoftDevice\inc --c99-I D:\twx_overseas\OUTPUT\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.4.0\Device\Include-D__UVISION_VERSION="515" -D_RTE_ -DNRF51 -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10028 -DS110 -DNRF51 -DSOFTDEVICE_PRESENT -DSWI_DISABLE0 -DHARD_VER3-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54C245B8)
+I (..\nRF_Libraries\inc\nordic_common.h)(0x56407685)
+I (..\Device\include\nrf.h)(0x5640769B)
+I (..\Device\include\nrf51.h)(0x5640769B)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm0.h)(0x5625B70C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625A350)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625A350)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625A350)
+I (..\nRF_Drivers\inc\system_nrf51.h)(0x5640769B)
+I (..\Device\include\nrf51_bitfields.h)(0x5640769B)
+I (..\Device\include\nrf51_deprecated.h)(0x5640769B)
+I (..\Device\include\compiler_abstraction.h)(0x5640769B)
+I (..\nRF_SoftDevice\inc\ble_hci.h)(0x56407687)
+I (..\nRF_BLE\inc\ble_advdata.h)(0x56407685)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x54C245B8)
+I (..\nRF_SoftDevice\inc\ble.h)(0x56407687)
+I (..\nRF_SoftDevice\inc\ble_ranges.h)(0x56407687)
+I (..\nRF_SoftDevice\inc\ble_types.h)(0x56407687)
+I (..\nRF_SoftDevice\inc\ble_gap.h)(0x56407687)
+I (..\nRF_SoftDevice\inc\nrf_svc.h)(0x56407687)
+I (..\nRF_SoftDevice\inc\ble_l2cap.h)(0x56407687)
+I (..\nRF_SoftDevice\inc\ble_err.h)(0x56407687)
+I (..\nRF_SoftDevice\inc\nrf_error.h)(0x56407687)
+I (..\nRF_SoftDevice\inc\ble_gatt.h)(0x56407687)
+I (..\nRF_SoftDevice\inc\ble_gattc.h)(0x56407687)
+I (..\nRF_SoftDevice\inc\ble_gatts.h)(0x56407687)
+I (..\nRF_Libraries\inc\app_util.h)(0x56407685)
+I (..\nRF_BLE\inc\ble_advertising.h)(0x56407685)
+I (..\nRF_BLE\inc\ble_conn_params.h)(0x56407685)
+I (..\nRF_BLE\inc\ble_srv_common.h)(0x56407685)
+I (..\nRF_SoftDevice\inc\softdevice_handler.h)(0x58A64C92)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54C245B8)
+I (..\nRF_SoftDevice\inc\nrf_sdm.h)(0x56407687)
+I (..\nRF_SoftDevice\inc\nrf_soc.h)(0x56407687)
+I (..\nRF_SoftDevice\inc\nrf_error_soc.h)(0x56407687)
+I (..\nRF_SoftDevice\inc\nrf_error_sdm.h)(0x56407687)
+I (..\nRF_Libraries\inc\app_error.h)(0x56407685)
+I (..\nRF_Libraries\inc\app_scheduler.h)(0x56407685)
+I (..\nRF_SoftDevice\inc\ble_stack_handler_types.h)(0x56407687)
+I (..\nRF_SoftDevice\inc\ant_stack_handler_types.h)(0x56407687)
+I (..\nRF_Libraries\inc\app_timer.h)(0x56407685)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (..\nRF_BLE\inc\ble_nus.h)(0x56407685)
+I (..\nRF_Libraries\inc\app_uart.h)(0x56407685)
+I (..\nRF_Libraries\inc\app_util_platform.h)(0x58CF4F97)
+I (..\nRF_Drivers\inc\pstorage.h)(0x56407685)
+I (..\nRF_Drivers\inc\pstorage_platform.h)(0x56407685)
+I (..\nRF_Drivers\inc\nrf_gpio.h)(0x56407685)
+I (..\nRF_Drivers\inc\nrf_delay.h)(0x56407685)
+I (..\APP\include\ofo_config.h)(0x58E4E97C)
+I (..\APP\include\ofo_uart.h)(0x58DF5BB2)
+I (..\APP\include\ofo_adc.h)(0x58CA066A)
+I (..\APP\include\ofo_flash.h)(0x58CA388E)
+I (..\APP\include\ofo_buzz.h)(0x58DB1792)
+I (..\APP\include\ofo_lock.h)(0x58CA8148)
+I (..\APP\include\ofo_wdt.h)(0x58CF6D24)
+I (..\APP\include\ofo_led.h)(0x58D62DF9)
+I (..\APP\include\ofo_key_unlock.h)(0x58D665BB)
+I (..\APP\include\ofo_date.h)(0x58DF2A11)
+F (..\APP\source\ofo_led.c)(0x58D62DF9)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I..\APP\include -I..\Device\include -I..\nRF_BLE\inc -I..\nRF_Drivers\inc -I..\nRF_Libraries\inc -I..\nRF_SoftDevice\inc --c99-I D:\twx_overseas\OUTPUT\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.4.0\Device\Include-D__UVISION_VERSION="515" -D_RTE_ -DNRF51 -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10028 -DS110 -DNRF51 -DSOFTDEVICE_PRESENT -DSWI_DISABLE0 -DHARD_VER3-o .\objects\ofo_led.o --omf_browse .\objects\ofo_led.crf --depend .\objects\ofo_led.d)
+I (..\APP\include\ofo_led.h)(0x58D62DF9)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\APP\include\ofo_config.h)(0x58E4E97C)
+I (..\nRF_Libraries\inc\app_timer.h)(0x56407685)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (..\nRF_Libraries\inc\app_error.h)(0x56407685)
+I (..\nRF_SoftDevice\inc\nrf_error.h)(0x56407687)
+I (..\nRF_Libraries\inc\app_util.h)(0x56407685)
+I (..\Device\include\compiler_abstraction.h)(0x5640769B)
+I (..\nRF_Libraries\inc\nordic_common.h)(0x56407685)
+I (..\nRF_Drivers\inc\nrf_gpio.h)(0x56407685)
+I (..\Device\include\nrf.h)(0x5640769B)
+I (..\Device\include\nrf51.h)(0x5640769B)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm0.h)(0x5625B70C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625A350)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625A350)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625A350)
+I (..\nRF_Drivers\inc\system_nrf51.h)(0x5640769B)
+I (..\Device\include\nrf51_bitfields.h)(0x5640769B)
+I (..\Device\include\nrf51_deprecated.h)(0x5640769B)
+F (..\APP\source\ofo_adc.c)(0x58CA070A)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I..\APP\include -I..\Device\include -I..\nRF_BLE\inc -I..\nRF_Drivers\inc -I..\nRF_Libraries\inc -I..\nRF_SoftDevice\inc --c99-I D:\twx_overseas\OUTPUT\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.4.0\Device\Include-D__UVISION_VERSION="515" -D_RTE_ -DNRF51 -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10028 -DS110 -DNRF51 -DSOFTDEVICE_PRESENT -DSWI_DISABLE0 -DHARD_VER3-o .\objects\ofo_adc.o --omf_browse .\objects\ofo_adc.crf --depend .\objects\ofo_adc.d)
+I (..\nRF_Drivers\inc\nrf_adc.h)(0x56407685)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x54C245B8)
+I (..\Device\include\nrf.h)(0x5640769B)
+I (..\Device\include\nrf51.h)(0x5640769B)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm0.h)(0x5625B70C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625A350)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625A350)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625A350)
+I (..\nRF_Drivers\inc\system_nrf51.h)(0x5640769B)
+I (..\Device\include\nrf51_bitfields.h)(0x5640769B)
+I (..\Device\include\nrf51_deprecated.h)(0x5640769B)
+I (..\Device\include\compiler_abstraction.h)(0x5640769B)
+I (..\nRF_SoftDevice\inc\nrf_soc.h)(0x56407687)
+I (..\nRF_SoftDevice\inc\nrf_svc.h)(0x56407687)
+I (..\nRF_SoftDevice\inc\nrf_error_soc.h)(0x56407687)
+I (..\nRF_SoftDevice\inc\nrf_error.h)(0x56407687)
+F (..\APP\source\ofo_wdt.c)(0x58CF6D24)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I..\APP\include -I..\Device\include -I..\nRF_BLE\inc -I..\nRF_Drivers\inc -I..\nRF_Libraries\inc -I..\nRF_SoftDevice\inc --c99-I D:\twx_overseas\OUTPUT\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.4.0\Device\Include-D__UVISION_VERSION="515" -D_RTE_ -DNRF51 -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10028 -DS110 -DNRF51 -DSOFTDEVICE_PRESENT -DSWI_DISABLE0 -DHARD_VER3-o .\objects\ofo_wdt.o --omf_browse .\objects\ofo_wdt.crf --depend .\objects\ofo_wdt.d)
+I (..\nRF_Drivers\inc\nrf_drv_wdt.h)(0x56407685)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\nRF_Libraries\inc\sdk_errors.h)(0x56407685)
+I (..\nRF_SoftDevice\inc\nrf_error.h)(0x56407687)
+I (..\nRF_Drivers\inc\nrf_wdt.h)(0x56407685)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x54C245B8)
+I (..\Device\include\nrf.h)(0x5640769B)
+I (..\Device\include\nrf51.h)(0x5640769B)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm0.h)(0x5625B70C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625A350)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625A350)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625A350)
+I (..\nRF_Drivers\inc\system_nrf51.h)(0x5640769B)
+I (..\Device\include\nrf51_bitfields.h)(0x5640769B)
+I (..\Device\include\nrf51_deprecated.h)(0x5640769B)
+I (..\Device\include\compiler_abstraction.h)(0x5640769B)
+I (..\nRF_Drivers\inc\nrf_drv_config.h)(0x58CA1268)
+I (..\nRF_Drivers\inc\nrf_drv_config_validation.h)(0x56407685)
+I (..\nRF_Libraries\inc\app_error.h)(0x56407685)
+I (..\nRF_Libraries\inc\app_util_platform.h)(0x58CF4F97)
+I (..\nRF_SoftDevice\inc\nrf_soc.h)(0x56407687)
+I (..\nRF_SoftDevice\inc\nrf_svc.h)(0x56407687)
+I (..\nRF_SoftDevice\inc\nrf_error_soc.h)(0x56407687)
+F (..\APP\source\ofo_uart.c)(0x58E4E4B6)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I..\APP\include -I..\Device\include -I..\nRF_BLE\inc -I..\nRF_Drivers\inc -I..\nRF_Libraries\inc -I..\nRF_SoftDevice\inc --c99-I D:\twx_overseas\OUTPUT\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.4.0\Device\Include-D__UVISION_VERSION="515" -D_RTE_ -DNRF51 -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10028 -DS110 -DNRF51 -DSOFTDEVICE_PRESENT -DSWI_DISABLE0 -DHARD_VER3-o .\objects\ofo_uart.o --omf_browse .\objects\ofo_uart.crf --depend .\objects\ofo_uart.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (..\APP\include\ofo_uart.h)(0x58DF5BB2)
+I (..\APP\include\ofo_config.h)(0x58E4E97C)
+I (..\nRF_Libraries\inc\nordic_common.h)(0x56407685)
+I (..\nRF_BLE\inc\ble_nus.h)(0x56407685)
+I (..\nRF_SoftDevice\inc\ble.h)(0x56407687)
+I (..\nRF_SoftDevice\inc\ble_ranges.h)(0x56407687)
+I (..\nRF_SoftDevice\inc\ble_types.h)(0x56407687)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\nRF_SoftDevice\inc\ble_gap.h)(0x56407687)
+I (..\nRF_SoftDevice\inc\nrf_svc.h)(0x56407687)
+I (..\nRF_SoftDevice\inc\ble_l2cap.h)(0x56407687)
+I (..\nRF_SoftDevice\inc\ble_err.h)(0x56407687)
+I (..\nRF_SoftDevice\inc\nrf_error.h)(0x56407687)
+I (..\nRF_SoftDevice\inc\ble_gatt.h)(0x56407687)
+I (..\nRF_SoftDevice\inc\ble_gattc.h)(0x56407687)
+I (..\nRF_SoftDevice\inc\ble_gatts.h)(0x56407687)
+I (..\nRF_BLE\inc\ble_srv_common.h)(0x56407685)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x54C245B8)
+I (..\nRF_Libraries\inc\app_util.h)(0x56407685)
+I (..\Device\include\compiler_abstraction.h)(0x5640769B)
+I (..\nRF_Libraries\inc\app_uart.h)(0x56407685)
+I (..\nRF_Libraries\inc\app_util_platform.h)(0x58CF4F97)
+I (..\Device\include\nrf.h)(0x5640769B)
+I (..\Device\include\nrf51.h)(0x5640769B)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm0.h)(0x5625B70C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625A350)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625A350)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625A350)
+I (..\nRF_Drivers\inc\system_nrf51.h)(0x5640769B)
+I (..\Device\include\nrf51_bitfields.h)(0x5640769B)
+I (..\Device\include\nrf51_deprecated.h)(0x5640769B)
+I (..\nRF_SoftDevice\inc\nrf_soc.h)(0x56407687)
+I (..\nRF_SoftDevice\inc\nrf_error_soc.h)(0x56407687)
+I (..\nRF_Libraries\inc\app_error.h)(0x56407685)
+I (..\APP\include\ofo_buzz.h)(0x58DB1792)
+I (..\nRF_Drivers\inc\nrf_delay.h)(0x56407685)
+F (..\APP\source\ofo_flash.c)(0x58CA388E)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I..\APP\include -I..\Device\include -I..\nRF_BLE\inc -I..\nRF_Drivers\inc -I..\nRF_Libraries\inc -I..\nRF_SoftDevice\inc --c99-I D:\twx_overseas\OUTPUT\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.4.0\Device\Include-D__UVISION_VERSION="515" -D_RTE_ -DNRF51 -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10028 -DS110 -DNRF51 -DSOFTDEVICE_PRESENT -DSWI_DISABLE0 -DHARD_VER3-o .\objects\ofo_flash.o --omf_browse .\objects\ofo_flash.crf --depend .\objects\ofo_flash.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (..\nRF_SoftDevice\inc\nrf_error.h)(0x56407687)
+I (..\nRF_Drivers\inc\pstorage.h)(0x56407685)
+I (..\nRF_Drivers\inc\pstorage_platform.h)(0x56407685)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\Device\include\nrf.h)(0x5640769B)
+I (..\Device\include\nrf51.h)(0x5640769B)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm0.h)(0x5625B70C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625A350)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625A350)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625A350)
+I (..\nRF_Drivers\inc\system_nrf51.h)(0x5640769B)
+I (..\Device\include\nrf51_bitfields.h)(0x5640769B)
+I (..\Device\include\nrf51_deprecated.h)(0x5640769B)
+I (..\Device\include\compiler_abstraction.h)(0x5640769B)
+I (..\APP\include\ofo_flash.h)(0x58CA388E)
+I (..\nRF_Libraries\inc\app_error.h)(0x56407685)
+F (..\APP\source\ofo_buzz.c)(0x58DB1792)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I..\APP\include -I..\Device\include -I..\nRF_BLE\inc -I..\nRF_Drivers\inc -I..\nRF_Libraries\inc -I..\nRF_SoftDevice\inc --c99-I D:\twx_overseas\OUTPUT\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.4.0\Device\Include-D__UVISION_VERSION="515" -D_RTE_ -DNRF51 -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10028 -DS110 -DNRF51 -DSOFTDEVICE_PRESENT -DSWI_DISABLE0 -DHARD_VER3-o .\objects\ofo_buzz.o --omf_browse .\objects\ofo_buzz.crf --depend .\objects\ofo_buzz.d)
+I (..\APP\include\ofo_buzz.h)(0x58DB1792)
+I (..\APP\include\ofo_config.h)(0x58E4E97C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x54C245B8)
+I (..\nRF_Libraries\inc\app_timer.h)(0x56407685)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (..\nRF_Libraries\inc\app_error.h)(0x56407685)
+I (..\nRF_SoftDevice\inc\nrf_error.h)(0x56407687)
+I (..\nRF_Libraries\inc\app_util.h)(0x56407685)
+I (..\Device\include\compiler_abstraction.h)(0x5640769B)
+I (..\nRF_Libraries\inc\nordic_common.h)(0x56407685)
+I (..\nRF_Drivers\inc\nrf_gpio.h)(0x56407685)
+I (..\Device\include\nrf.h)(0x5640769B)
+I (..\Device\include\nrf51.h)(0x5640769B)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm0.h)(0x5625B70C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625A350)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625A350)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625A350)
+I (..\nRF_Drivers\inc\system_nrf51.h)(0x5640769B)
+I (..\Device\include\nrf51_bitfields.h)(0x5640769B)
+I (..\Device\include\nrf51_deprecated.h)(0x5640769B)
+F (..\APP\source\ofo_date.c)(0x58DF2965)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I..\APP\include -I..\Device\include -I..\nRF_BLE\inc -I..\nRF_Drivers\inc -I..\nRF_Libraries\inc -I..\nRF_SoftDevice\inc --c99-I D:\twx_overseas\OUTPUT\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.4.0\Device\Include-D__UVISION_VERSION="515" -D_RTE_ -DNRF51 -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10028 -DS110 -DNRF51 -DSOFTDEVICE_PRESENT -DSWI_DISABLE0 -DHARD_VER3-o .\objects\ofo_date.o --omf_browse .\objects\ofo_date.crf --depend .\objects\ofo_date.d)
+I (..\APP\include\ofo_date.h)(0x58DF2A11)
+I (..\nRF_Libraries\inc\app_timer.h)(0x56407685)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (..\nRF_Libraries\inc\app_error.h)(0x56407685)
+I (..\nRF_SoftDevice\inc\nrf_error.h)(0x56407687)
+I (..\nRF_Libraries\inc\app_util.h)(0x56407685)
+I (..\Device\include\compiler_abstraction.h)(0x5640769B)
+I (..\nRF_Libraries\inc\nordic_common.h)(0x56407685)
+F (..\APP\source\ofo_lock.c)(0x58E4AB0E)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I..\APP\include -I..\Device\include -I..\nRF_BLE\inc -I..\nRF_Drivers\inc -I..\nRF_Libraries\inc -I..\nRF_SoftDevice\inc --c99-I D:\twx_overseas\OUTPUT\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.4.0\Device\Include-D__UVISION_VERSION="515" -D_RTE_ -DNRF51 -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10028 -DS110 -DNRF51 -DSOFTDEVICE_PRESENT -DSWI_DISABLE0 -DHARD_VER3-o .\objects\ofo_lock.o --omf_browse .\objects\ofo_lock.crf --depend .\objects\ofo_lock.d)
+I (..\APP\include\ofo_lock.h)(0x58CA8148)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\APP\include\ofo_config.h)(0x58E4E97C)
+I (..\nRF_Libraries\inc\app_timer.h)(0x56407685)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (..\nRF_Libraries\inc\app_error.h)(0x56407685)
+I (..\nRF_SoftDevice\inc\nrf_error.h)(0x56407687)
+I (..\nRF_Libraries\inc\app_util.h)(0x56407685)
+I (..\Device\include\compiler_abstraction.h)(0x5640769B)
+I (..\nRF_Libraries\inc\nordic_common.h)(0x56407685)
+I (..\nRF_Drivers\inc\nrf_gpio.h)(0x56407685)
+I (..\Device\include\nrf.h)(0x5640769B)
+I (..\Device\include\nrf51.h)(0x5640769B)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm0.h)(0x5625B70C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625A350)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625A350)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625A350)
+I (..\nRF_Drivers\inc\system_nrf51.h)(0x5640769B)
+I (..\Device\include\nrf51_bitfields.h)(0x5640769B)
+I (..\Device\include\nrf51_deprecated.h)(0x5640769B)
+I (..\nRF_Drivers\inc\nrf_drv_gpiote.h)(0x56407685)
+I (..\nRF_Drivers\inc\nrf_gpiote.h)(0x56407685)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x54C245B8)
+I (..\nRF_Drivers\inc\nrf_drv_config.h)(0x58CA1268)
+I (..\nRF_Drivers\inc\nrf_drv_config_validation.h)(0x56407685)
+I (..\nRF_Libraries\inc\sdk_errors.h)(0x56407685)
+F (..\APP\source\ofo_lis3dh.c)(0x58D8663C)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I..\APP\include -I..\Device\include -I..\nRF_BLE\inc -I..\nRF_Drivers\inc -I..\nRF_Libraries\inc -I..\nRF_SoftDevice\inc --c99-I D:\twx_overseas\OUTPUT\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.4.0\Device\Include-D__UVISION_VERSION="515" -D_RTE_ -DNRF51 -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10028 -DS110 -DNRF51 -DSOFTDEVICE_PRESENT -DSWI_DISABLE0 -DHARD_VER3-o .\objects\ofo_lis3dh.o --omf_browse .\objects\ofo_lis3dh.crf --depend .\objects\ofo_lis3dh.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54C245B8)
+I (..\APP\include\ofo_lis3dh.h)(0x58D668A7)
+I (..\nRF_Drivers\inc\twi_master.h)(0x58D669BC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x54C245B8)
+I (..\nRF_Drivers\inc\nrf_delay.h)(0x56407685)
+I (..\Device\include\nrf.h)(0x5640769B)
+I (..\Device\include\nrf51.h)(0x5640769B)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm0.h)(0x5625B70C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625A350)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625A350)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625A350)
+I (..\nRF_Drivers\inc\system_nrf51.h)(0x5640769B)
+I (..\Device\include\nrf51_bitfields.h)(0x5640769B)
+I (..\Device\include\nrf51_deprecated.h)(0x5640769B)
+I (..\Device\include\compiler_abstraction.h)(0x5640769B)
+F (..\APP\source\ofo_ble_unlock.c)(0x58DC9B2B)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I..\APP\include -I..\Device\include -I..\nRF_BLE\inc -I..\nRF_Drivers\inc -I..\nRF_Libraries\inc -I..\nRF_SoftDevice\inc --c99-I D:\twx_overseas\OUTPUT\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.4.0\Device\Include-D__UVISION_VERSION="515" -D_RTE_ -DNRF51 -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10028 -DS110 -DNRF51 -DSOFTDEVICE_PRESENT -DSWI_DISABLE0 -DHARD_VER3-o .\objects\ofo_ble_unlock.o --omf_browse .\objects\ofo_ble_unlock.crf --depend .\objects\ofo_ble_unlock.d)
+I (..\nRF_BLE\inc\ble_nus.h)(0x56407685)
+I (..\nRF_SoftDevice\inc\ble.h)(0x56407687)
+I (..\nRF_SoftDevice\inc\ble_ranges.h)(0x56407687)
+I (..\nRF_SoftDevice\inc\ble_types.h)(0x56407687)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\nRF_SoftDevice\inc\ble_gap.h)(0x56407687)
+I (..\nRF_SoftDevice\inc\nrf_svc.h)(0x56407687)
+I (..\nRF_SoftDevice\inc\ble_l2cap.h)(0x56407687)
+I (..\nRF_SoftDevice\inc\ble_err.h)(0x56407687)
+I (..\nRF_SoftDevice\inc\nrf_error.h)(0x56407687)
+I (..\nRF_SoftDevice\inc\ble_gatt.h)(0x56407687)
+I (..\nRF_SoftDevice\inc\ble_gattc.h)(0x56407687)
+I (..\nRF_SoftDevice\inc\ble_gatts.h)(0x56407687)
+I (..\nRF_BLE\inc\ble_srv_common.h)(0x56407685)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x54C245B8)
+I (..\nRF_Libraries\inc\app_util.h)(0x56407685)
+I (..\Device\include\compiler_abstraction.h)(0x5640769B)
+I (..\nRF_Libraries\inc\app_error.h)(0x56407685)
+F (..\APP\source\ofo_key_unlock.c)(0x58D665BB)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I..\APP\include -I..\Device\include -I..\nRF_BLE\inc -I..\nRF_Drivers\inc -I..\nRF_Libraries\inc -I..\nRF_SoftDevice\inc --c99-I D:\twx_overseas\OUTPUT\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.4.0\Device\Include-D__UVISION_VERSION="515" -D_RTE_ -DNRF51 -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10028 -DS110 -DNRF51 -DSOFTDEVICE_PRESENT -DSWI_DISABLE0 -DHARD_VER3-o .\objects\ofo_key_unlock.o --omf_browse .\objects\ofo_key_unlock.crf --depend .\objects\ofo_key_unlock.d)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\APP\include\ofo_key_unlock.h)(0x58D665BB)
+I (..\nRF_Drivers\inc\nrf_gpio.h)(0x56407685)
+I (..\Device\include\nrf.h)(0x5640769B)
+I (..\Device\include\nrf51.h)(0x5640769B)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm0.h)(0x5625B70C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625A350)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625A350)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625A350)
+I (..\nRF_Drivers\inc\system_nrf51.h)(0x5640769B)
+I (..\Device\include\nrf51_bitfields.h)(0x5640769B)
+I (..\Device\include\nrf51_deprecated.h)(0x5640769B)
+I (..\Device\include\compiler_abstraction.h)(0x5640769B)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x54C245B8)
+I (..\APP\include\ofo_config.h)(0x58E4E97C)
+I (..\nRF_Libraries\inc\app_error.h)(0x56407685)
+I (..\nRF_SoftDevice\inc\nrf_error.h)(0x56407687)
+I (..\APP\include\ofo_buzz.h)(0x58DB1792)
+I (..\APP\include\ofo_led.h)(0x58D62DF9)
+I (..\APP\include\ofo_lock.h)(0x58CA8148)
+I (..\nRF_Drivers\inc\nrf_drv_gpiote.h)(0x56407685)
+I (..\nRF_Drivers\inc\nrf_gpiote.h)(0x56407685)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x54C245B8)
+I (..\nRF_Drivers\inc\nrf_drv_config.h)(0x58CA1268)
+I (..\nRF_Drivers\inc\nrf_drv_config_validation.h)(0x56407685)
+I (..\nRF_Libraries\inc\sdk_errors.h)(0x56407685)
+I (..\nRF_Libraries\inc\app_timer.h)(0x56407685)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (..\nRF_Libraries\inc\app_util.h)(0x56407685)
+I (..\nRF_Libraries\inc\nordic_common.h)(0x56407685)
+F (..\APP\source\ofo_factory_test.c)(0x58E4E7CA)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I..\APP\include -I..\Device\include -I..\nRF_BLE\inc -I..\nRF_Drivers\inc -I..\nRF_Libraries\inc -I..\nRF_SoftDevice\inc --c99-I D:\twx_overseas\OUTPUT\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.4.0\Device\Include-D__UVISION_VERSION="515" -D_RTE_ -DNRF51 -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10028 -DS110 -DNRF51 -DSOFTDEVICE_PRESENT -DSWI_DISABLE0 -DHARD_VER3-o .\objects\ofo_factory_test.o --omf_browse .\objects\ofo_factory_test.crf --depend .\objects\ofo_factory_test.d)
+I (..\APP\include\ofo_factory_test.h)(0x58E4E4B6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54C245B8)
+I (..\APP\include\ofo_config.h)(0x58E4E97C)
+I (..\APP\include\ofo_lock.h)(0x58CA8148)
+I (..\APP\include\ofo_date.h)(0x58DF2A11)
+I (..\APP\include\ofo_flash.h)(0x58CA388E)
+I (..\nRF_Drivers\inc\pstorage_platform.h)(0x56407685)
+I (..\Device\include\nrf.h)(0x5640769B)
+I (..\Device\include\nrf51.h)(0x5640769B)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm0.h)(0x5625B70C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625A350)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625A350)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625A350)
+I (..\nRF_Drivers\inc\system_nrf51.h)(0x5640769B)
+I (..\Device\include\nrf51_bitfields.h)(0x5640769B)
+I (..\Device\include\nrf51_deprecated.h)(0x5640769B)
+I (..\Device\include\compiler_abstraction.h)(0x5640769B)
+I (..\APP\include\ofo_lis3dh.h)(0x58D668A7)
+I (..\APP\include\ofo_buzz.h)(0x58DB1792)
+I (..\nRF_Drivers\inc\nrf_gpio.h)(0x56407685)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x54C245B8)
+I (..\nRF_Drivers\inc\nrf_delay.h)(0x56407685)
+I (..\nRF_Drivers\inc\nrf_drv_gpiote.h)(0x56407685)
+I (..\nRF_Drivers\inc\nrf_gpiote.h)(0x56407685)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x54C245B8)
+I (..\nRF_Drivers\inc\nrf_drv_config.h)(0x58CA1268)
+I (..\nRF_Drivers\inc\nrf_drv_config_validation.h)(0x56407685)
+I (..\nRF_Libraries\inc\sdk_errors.h)(0x56407685)
+I (..\nRF_SoftDevice\inc\nrf_error.h)(0x56407687)
+F (..\Device\source\arm_startup_nrf51.s)(0x58A64C28)(--cpu Cortex-M0 -g --apcs=interwork -I D:\twx_overseas\OUTPUT\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.4.0\Device\Include--pd "__UVISION_VERSION SETA 515" --pd "_RTE_ SETA 1" --pd "NRF51 SETA 1" --pd "BLE_STACK_SUPPORT_REQD SETA 1" --pd "BOARD_PCA10028 SETA 1" --pd "S110 SETA 1" --pd "NRF51 SETA 1" --pd "SOFTDEVICE_PRESENT SETA 1" --pd "SWI_DISABLE0 SETA 1"--list .\listings\arm_startup_nrf51.lst --xref -o .\objects\arm_startup_nrf51.o --depend .\objects\arm_startup_nrf51.d)
+F (..\Device\source\system_nrf51.c)(0x58A64C28)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I..\APP\include -I..\Device\include -I..\nRF_BLE\inc -I..\nRF_Drivers\inc -I..\nRF_Libraries\inc -I..\nRF_SoftDevice\inc --c99-I D:\twx_overseas\OUTPUT\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.4.0\Device\Include-D__UVISION_VERSION="515" -D_RTE_ -DNRF51 -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10028 -DS110 -DNRF51 -DSOFTDEVICE_PRESENT -DSWI_DISABLE0 -DHARD_VER3-o .\objects\system_nrf51.o --omf_browse .\objects\system_nrf51.crf --depend .\objects\system_nrf51.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x54C245B8)
+I (..\Device\include\nrf.h)(0x5640769B)
+I (..\Device\include\nrf51.h)(0x5640769B)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm0.h)(0x5625B70C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625A350)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625A350)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625A350)
+I (..\nRF_Drivers\inc\system_nrf51.h)(0x5640769B)
+I (..\Device\include\nrf51_bitfields.h)(0x5640769B)
+I (..\Device\include\nrf51_deprecated.h)(0x5640769B)
+I (..\Device\include\compiler_abstraction.h)(0x5640769B)
+F (..\nRF_BLE\src\ble_advdata.c)(0x585BC0D9)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I..\APP\include -I..\Device\include -I..\nRF_BLE\inc -I..\nRF_Drivers\inc -I..\nRF_Libraries\inc -I..\nRF_SoftDevice\inc --c99-I D:\twx_overseas\OUTPUT\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.4.0\Device\Include-D__UVISION_VERSION="515" -D_RTE_ -DNRF51 -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10028 -DS110 -DNRF51 -DSOFTDEVICE_PRESENT -DSWI_DISABLE0 -DHARD_VER3-o .\objects\ble_advdata.o --omf_browse .\objects\ble_advdata.crf --depend .\objects\ble_advdata.d)
+I (..\nRF_BLE\inc\ble_advdata.h)(0x56407685)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54C245B8)
+I (..\nRF_SoftDevice\inc\ble.h)(0x56407687)
+I (..\nRF_SoftDevice\inc\ble_ranges.h)(0x56407687)
+I (..\nRF_SoftDevice\inc\ble_types.h)(0x56407687)
+I (..\nRF_SoftDevice\inc\ble_gap.h)(0x56407687)
+I (..\nRF_SoftDevice\inc\nrf_svc.h)(0x56407687)
+I (..\nRF_SoftDevice\inc\ble_l2cap.h)(0x56407687)
+I (..\nRF_SoftDevice\inc\ble_err.h)(0x56407687)
+I (..\nRF_SoftDevice\inc\nrf_error.h)(0x56407687)
+I (..\nRF_SoftDevice\inc\ble_gatt.h)(0x56407687)
+I (..\nRF_SoftDevice\inc\ble_gattc.h)(0x56407687)
+I (..\nRF_SoftDevice\inc\ble_gatts.h)(0x56407687)
+I (..\nRF_Libraries\inc\app_util.h)(0x56407685)
+I (..\Device\include\compiler_abstraction.h)(0x5640769B)
+I (..\nRF_Libraries\inc\nordic_common.h)(0x56407685)
+I (..\nRF_BLE\inc\ble_srv_common.h)(0x56407685)
+F (..\nRF_BLE\src\ble_advertising.c)(0x589AC27B)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I..\APP\include -I..\Device\include -I..\nRF_BLE\inc -I..\nRF_Drivers\inc -I..\nRF_Libraries\inc -I..\nRF_SoftDevice\inc --c99-I D:\twx_overseas\OUTPUT\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.4.0\Device\Include-D__UVISION_VERSION="515" -D_RTE_ -DNRF51 -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10028 -DS110 -DNRF51 -DSOFTDEVICE_PRESENT -DSWI_DISABLE0 -DHARD_VER3-o .\objects\ble_advertising.o --omf_browse .\objects\ble_advertising.crf --depend .\objects\ble_advertising.d)
+I (..\nRF_BLE\inc\ble_advdata.h)(0x56407685)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54C245B8)
+I (..\nRF_SoftDevice\inc\ble.h)(0x56407687)
+I (..\nRF_SoftDevice\inc\ble_ranges.h)(0x56407687)
+I (..\nRF_SoftDevice\inc\ble_types.h)(0x56407687)
+I (..\nRF_SoftDevice\inc\ble_gap.h)(0x56407687)
+I (..\nRF_SoftDevice\inc\nrf_svc.h)(0x56407687)
+I (..\nRF_SoftDevice\inc\ble_l2cap.h)(0x56407687)
+I (..\nRF_SoftDevice\inc\ble_err.h)(0x56407687)
+I (..\nRF_SoftDevice\inc\nrf_error.h)(0x56407687)
+I (..\nRF_SoftDevice\inc\ble_gatt.h)(0x56407687)
+I (..\nRF_SoftDevice\inc\ble_gattc.h)(0x56407687)
+I (..\nRF_SoftDevice\inc\ble_gatts.h)(0x56407687)
+I (..\nRF_Libraries\inc\app_util.h)(0x56407685)
+I (..\Device\include\compiler_abstraction.h)(0x5640769B)
+I (..\nRF_BLE\inc\ble_advertising.h)(0x56407685)
+I (..\nRF_SoftDevice\inc\nrf_soc.h)(0x56407687)
+I (..\Device\include\nrf.h)(0x5640769B)
+I (..\Device\include\nrf51.h)(0x5640769B)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm0.h)(0x5625B70C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625A350)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625A350)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625A350)
+I (..\nRF_Drivers\inc\system_nrf51.h)(0x5640769B)
+I (..\Device\include\nrf51_bitfields.h)(0x5640769B)
+I (..\Device\include\nrf51_deprecated.h)(0x5640769B)
+I (..\nRF_SoftDevice\inc\nrf_error_soc.h)(0x56407687)
+I (..\nRF_Libraries\inc\app_trace.h)(0x56407685)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (..\nRF_Libraries\inc\nordic_common.h)(0x56407685)
+I (..\nRF_Drivers\inc\pstorage.h)(0x56407685)
+I (..\nRF_Drivers\inc\pstorage_platform.h)(0x56407685)
+F (..\nRF_BLE\src\ble_conn_params.c)(0x589AD0DF)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I..\APP\include -I..\Device\include -I..\nRF_BLE\inc -I..\nRF_Drivers\inc -I..\nRF_Libraries\inc -I..\nRF_SoftDevice\inc --c99-I D:\twx_overseas\OUTPUT\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.4.0\Device\Include-D__UVISION_VERSION="515" -D_RTE_ -DNRF51 -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10028 -DS110 -DNRF51 -DSOFTDEVICE_PRESENT -DSWI_DISABLE0 -DHARD_VER3-o .\objects\ble_conn_params.o --omf_browse .\objects\ble_conn_params.crf --depend .\objects\ble_conn_params.d)
+I (..\nRF_BLE\inc\ble_conn_params.h)(0x56407685)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\nRF_SoftDevice\inc\ble.h)(0x56407687)
+I (..\nRF_SoftDevice\inc\ble_ranges.h)(0x56407687)
+I (..\nRF_SoftDevice\inc\ble_types.h)(0x56407687)
+I (..\nRF_SoftDevice\inc\ble_gap.h)(0x56407687)
+I (..\nRF_SoftDevice\inc\nrf_svc.h)(0x56407687)
+I (..\nRF_SoftDevice\inc\ble_l2cap.h)(0x56407687)
+I (..\nRF_SoftDevice\inc\ble_err.h)(0x56407687)
+I (..\nRF_SoftDevice\inc\nrf_error.h)(0x56407687)
+I (..\nRF_SoftDevice\inc\ble_gatt.h)(0x56407687)
+I (..\nRF_SoftDevice\inc\ble_gattc.h)(0x56407687)
+I (..\nRF_SoftDevice\inc\ble_gatts.h)(0x56407687)
+I (..\nRF_BLE\inc\ble_srv_common.h)(0x56407685)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x54C245B8)
+I (..\nRF_Libraries\inc\app_util.h)(0x56407685)
+I (..\Device\include\compiler_abstraction.h)(0x5640769B)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54C245B8)
+I (..\nRF_Libraries\inc\nordic_common.h)(0x56407685)
+I (..\nRF_SoftDevice\inc\ble_hci.h)(0x56407687)
+I (..\nRF_Libraries\inc\app_timer.h)(0x56407685)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (..\nRF_Libraries\inc\app_error.h)(0x56407685)
+F (..\nRF_BLE\src\ble_nus.c)(0x5885C9C3)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I..\APP\include -I..\Device\include -I..\nRF_BLE\inc -I..\nRF_Drivers\inc -I..\nRF_Libraries\inc -I..\nRF_SoftDevice\inc --c99-I D:\twx_overseas\OUTPUT\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.4.0\Device\Include-D__UVISION_VERSION="515" -D_RTE_ -DNRF51 -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10028 -DS110 -DNRF51 -DSOFTDEVICE_PRESENT -DSWI_DISABLE0 -DHARD_VER3-o .\objects\ble_nus.o --omf_browse .\objects\ble_nus.crf --depend .\objects\ble_nus.d)
+I (..\nRF_BLE\inc\ble_nus.h)(0x56407685)
+I (..\nRF_SoftDevice\inc\ble.h)(0x56407687)
+I (..\nRF_SoftDevice\inc\ble_ranges.h)(0x56407687)
+I (..\nRF_SoftDevice\inc\ble_types.h)(0x56407687)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\nRF_SoftDevice\inc\ble_gap.h)(0x56407687)
+I (..\nRF_SoftDevice\inc\nrf_svc.h)(0x56407687)
+I (..\nRF_SoftDevice\inc\ble_l2cap.h)(0x56407687)
+I (..\nRF_SoftDevice\inc\ble_err.h)(0x56407687)
+I (..\nRF_SoftDevice\inc\nrf_error.h)(0x56407687)
+I (..\nRF_SoftDevice\inc\ble_gatt.h)(0x56407687)
+I (..\nRF_SoftDevice\inc\ble_gattc.h)(0x56407687)
+I (..\nRF_SoftDevice\inc\ble_gatts.h)(0x56407687)
+I (..\nRF_BLE\inc\ble_srv_common.h)(0x56407685)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x54C245B8)
+I (..\nRF_Libraries\inc\app_util.h)(0x56407685)
+I (..\Device\include\compiler_abstraction.h)(0x5640769B)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54C245B8)
+I (..\nRF_Libraries\inc\nordic_common.h)(0x56407685)
+F (..\nRF_BLE\src\ble_srv_common.c)(0x56407685)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I..\APP\include -I..\Device\include -I..\nRF_BLE\inc -I..\nRF_Drivers\inc -I..\nRF_Libraries\inc -I..\nRF_SoftDevice\inc --c99-I D:\twx_overseas\OUTPUT\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.4.0\Device\Include-D__UVISION_VERSION="515" -D_RTE_ -DNRF51 -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10028 -DS110 -DNRF51 -DSOFTDEVICE_PRESENT -DSWI_DISABLE0 -DHARD_VER3-o .\objects\ble_srv_common.o --omf_browse .\objects\ble_srv_common.crf --depend .\objects\ble_srv_common.d)
+I (..\nRF_BLE\inc\ble_srv_common.h)(0x56407685)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x54C245B8)
+I (..\nRF_SoftDevice\inc\ble_types.h)(0x56407687)
+I (..\nRF_Libraries\inc\app_util.h)(0x56407685)
+I (..\Device\include\compiler_abstraction.h)(0x5640769B)
+I (..\nRF_SoftDevice\inc\ble.h)(0x56407687)
+I (..\nRF_SoftDevice\inc\ble_ranges.h)(0x56407687)
+I (..\nRF_SoftDevice\inc\ble_gap.h)(0x56407687)
+I (..\nRF_SoftDevice\inc\nrf_svc.h)(0x56407687)
+I (..\nRF_SoftDevice\inc\ble_l2cap.h)(0x56407687)
+I (..\nRF_SoftDevice\inc\ble_err.h)(0x56407687)
+I (..\nRF_SoftDevice\inc\nrf_error.h)(0x56407687)
+I (..\nRF_SoftDevice\inc\ble_gatt.h)(0x56407687)
+I (..\nRF_SoftDevice\inc\ble_gattc.h)(0x56407687)
+I (..\nRF_SoftDevice\inc\ble_gatts.h)(0x56407687)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54C245B8)
+I (..\nRF_Libraries\inc\nordic_common.h)(0x56407685)
+I (..\nRF_Libraries\inc\app_error.h)(0x56407685)
+F (..\nRF_Drivers\src\nrf_adc.c)(0x56407685)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I..\APP\include -I..\Device\include -I..\nRF_BLE\inc -I..\nRF_Drivers\inc -I..\nRF_Libraries\inc -I..\nRF_SoftDevice\inc --c99-I D:\twx_overseas\OUTPUT\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.4.0\Device\Include-D__UVISION_VERSION="515" -D_RTE_ -DNRF51 -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10028 -DS110 -DNRF51 -DSOFTDEVICE_PRESENT -DSWI_DISABLE0 -DHARD_VER3-o .\objects\nrf_adc.o --omf_browse .\objects\nrf_adc.crf --depend .\objects\nrf_adc.d)
+I (..\nRF_Drivers\inc\nrf_adc.h)(0x56407685)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x54C245B8)
+I (..\Device\include\nrf.h)(0x5640769B)
+I (..\Device\include\nrf51.h)(0x5640769B)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm0.h)(0x5625B70C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625A350)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625A350)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625A350)
+I (..\nRF_Drivers\inc\system_nrf51.h)(0x5640769B)
+I (..\Device\include\nrf51_bitfields.h)(0x5640769B)
+I (..\Device\include\nrf51_deprecated.h)(0x5640769B)
+I (..\Device\include\compiler_abstraction.h)(0x5640769B)
+F (..\nRF_Drivers\src\nrf_delay.c)(0x56407685)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I..\APP\include -I..\Device\include -I..\nRF_BLE\inc -I..\nRF_Drivers\inc -I..\nRF_Libraries\inc -I..\nRF_SoftDevice\inc --c99-I D:\twx_overseas\OUTPUT\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.4.0\Device\Include-D__UVISION_VERSION="515" -D_RTE_ -DNRF51 -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10028 -DS110 -DNRF51 -DSOFTDEVICE_PRESENT -DSWI_DISABLE0 -DHARD_VER3-o .\objects\nrf_delay.o --omf_browse .\objects\nrf_delay.crf --depend .\objects\nrf_delay.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (..\Device\include\compiler_abstraction.h)(0x5640769B)
+I (..\Device\include\nrf.h)(0x5640769B)
+I (..\Device\include\nrf51.h)(0x5640769B)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm0.h)(0x5625B70C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625A350)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625A350)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625A350)
+I (..\nRF_Drivers\inc\system_nrf51.h)(0x5640769B)
+I (..\Device\include\nrf51_bitfields.h)(0x5640769B)
+I (..\Device\include\nrf51_deprecated.h)(0x5640769B)
+I (..\nRF_Drivers\inc\nrf_delay.h)(0x56407685)
+F (..\nRF_Drivers\src\nrf_drv_common.c)(0x56407685)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I..\APP\include -I..\Device\include -I..\nRF_BLE\inc -I..\nRF_Drivers\inc -I..\nRF_Libraries\inc -I..\nRF_SoftDevice\inc --c99-I D:\twx_overseas\OUTPUT\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.4.0\Device\Include-D__UVISION_VERSION="515" -D_RTE_ -DNRF51 -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10028 -DS110 -DNRF51 -DSOFTDEVICE_PRESENT -DSWI_DISABLE0 -DHARD_VER3-o .\objects\nrf_drv_common.o --omf_browse .\objects\nrf_drv_common.crf --depend .\objects\nrf_drv_common.d)
+I (..\nRF_Drivers\inc\nrf_drv_common.h)(0x56407685)
+I (..\Device\include\nrf.h)(0x5640769B)
+I (..\Device\include\nrf51.h)(0x5640769B)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm0.h)(0x5625B70C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625A350)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625A350)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625A350)
+I (..\nRF_Drivers\inc\system_nrf51.h)(0x5640769B)
+I (..\Device\include\nrf51_bitfields.h)(0x5640769B)
+I (..\Device\include\nrf51_deprecated.h)(0x5640769B)
+I (..\Device\include\compiler_abstraction.h)(0x5640769B)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x54C245B8)
+I (..\nRF_Libraries\inc\nrf_assert.h)(0x56407685)
+I (..\nRF_SoftDevice\inc\nrf_error.h)(0x56407687)
+I (..\nRF_SoftDevice\inc\nrf_soc.h)(0x56407687)
+I (..\nRF_SoftDevice\inc\nrf_svc.h)(0x56407687)
+I (..\nRF_SoftDevice\inc\nrf_error_soc.h)(0x56407687)
+F (..\nRF_Drivers\src\nrf_drv_gpiote.c)(0x58C94585)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I..\APP\include -I..\Device\include -I..\nRF_BLE\inc -I..\nRF_Drivers\inc -I..\nRF_Libraries\inc -I..\nRF_SoftDevice\inc --c99-I D:\twx_overseas\OUTPUT\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.4.0\Device\Include-D__UVISION_VERSION="515" -D_RTE_ -DNRF51 -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10028 -DS110 -DNRF51 -DSOFTDEVICE_PRESENT -DSWI_DISABLE0 -DHARD_VER3-o .\objects\nrf_drv_gpiote.o --omf_browse .\objects\nrf_drv_gpiote.crf --depend .\objects\nrf_drv_gpiote.d)
+I (..\nRF_Drivers\inc\nrf_drv_gpiote.h)(0x56407685)
+I (..\nRF_Drivers\inc\nrf_gpiote.h)(0x56407685)
+I (..\Device\include\nrf.h)(0x5640769B)
+I (..\Device\include\nrf51.h)(0x5640769B)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm0.h)(0x5625B70C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625A350)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625A350)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625A350)
+I (..\nRF_Drivers\inc\system_nrf51.h)(0x5640769B)
+I (..\Device\include\nrf51_bitfields.h)(0x5640769B)
+I (..\Device\include\nrf51_deprecated.h)(0x5640769B)
+I (..\Device\include\compiler_abstraction.h)(0x5640769B)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x54C245B8)
+I (..\nRF_Drivers\inc\nrf_gpio.h)(0x56407685)
+I (..\nRF_Drivers\inc\nrf_drv_config.h)(0x58CA1268)
+I (..\nRF_Drivers\inc\nrf_drv_config_validation.h)(0x56407685)
+I (..\nRF_Libraries\inc\sdk_errors.h)(0x56407685)
+I (..\nRF_SoftDevice\inc\nrf_error.h)(0x56407687)
+I (..\nRF_Drivers\inc\nrf_drv_common.h)(0x56407685)
+I (..\nRF_Libraries\inc\app_util_platform.h)(0x58CF4F97)
+I (..\nRF_SoftDevice\inc\nrf_soc.h)(0x56407687)
+I (..\nRF_SoftDevice\inc\nrf_svc.h)(0x56407687)
+I (..\nRF_SoftDevice\inc\nrf_error_soc.h)(0x56407687)
+I (..\nRF_Libraries\inc\app_error.h)(0x56407685)
+I (..\nRF_Libraries\inc\nrf_assert.h)(0x56407685)
+F (..\nRF_Drivers\src\nrf_drv_spi.c)(0x56407685)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I..\APP\include -I..\Device\include -I..\nRF_BLE\inc -I..\nRF_Drivers\inc -I..\nRF_Libraries\inc -I..\nRF_SoftDevice\inc --c99-I D:\twx_overseas\OUTPUT\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.4.0\Device\Include-D__UVISION_VERSION="515" -D_RTE_ -DNRF51 -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10028 -DS110 -DNRF51 -DSOFTDEVICE_PRESENT -DSWI_DISABLE0 -DHARD_VER3-o .\objects\nrf_drv_spi.o --omf_browse .\objects\nrf_drv_spi.crf --depend .\objects\nrf_drv_spi.d)
+I (..\nRF_Drivers\inc\nrf_drv_spi.h)(0x56407685)
+I (..\nRF_Libraries\inc\nordic_common.h)(0x56407685)
+I (..\nRF_Drivers\inc\nrf_drv_config.h)(0x58CA1268)
+I (..\nRF_Drivers\inc\nrf_drv_config_validation.h)(0x56407685)
+I (..\nRF_Drivers\inc\nrf_spi.h)(0x56407685)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\Device\include\nrf.h)(0x5640769B)
+I (..\Device\include\nrf51.h)(0x5640769B)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm0.h)(0x5625B70C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625A350)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625A350)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625A350)
+I (..\nRF_Drivers\inc\system_nrf51.h)(0x5640769B)
+I (..\Device\include\nrf51_bitfields.h)(0x5640769B)
+I (..\Device\include\nrf51_deprecated.h)(0x5640769B)
+I (..\Device\include\compiler_abstraction.h)(0x5640769B)
+I (..\nRF_Drivers\inc\nrf_spim.h)(0x56407685)
+I (..\nRF_Libraries\inc\sdk_errors.h)(0x56407685)
+I (..\nRF_SoftDevice\inc\nrf_error.h)(0x56407687)
+I (..\nRF_Drivers\inc\nrf_drv_common.h)(0x56407685)
+I (..\nRF_Drivers\inc\nrf_gpio.h)(0x56407685)
+I (..\nRF_Libraries\inc\nrf_assert.h)(0x56407685)
+I (..\nRF_Libraries\inc\app_util_platform.h)(0x58CF4F97)
+I (..\nRF_SoftDevice\inc\nrf_soc.h)(0x56407687)
+I (..\nRF_SoftDevice\inc\nrf_svc.h)(0x56407687)
+I (..\nRF_SoftDevice\inc\nrf_error_soc.h)(0x56407687)
+I (..\nRF_Libraries\inc\app_error.h)(0x56407685)
+F (..\nRF_Drivers\src\nrf_drv_uart.c)(0x56407685)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I..\APP\include -I..\Device\include -I..\nRF_BLE\inc -I..\nRF_Drivers\inc -I..\nRF_Libraries\inc -I..\nRF_SoftDevice\inc --c99-I D:\twx_overseas\OUTPUT\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.4.0\Device\Include-D__UVISION_VERSION="515" -D_RTE_ -DNRF51 -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10028 -DS110 -DNRF51 -DSOFTDEVICE_PRESENT -DSWI_DISABLE0 -DHARD_VER3-o .\objects\nrf_drv_uart.o --omf_browse .\objects\nrf_drv_uart.crf --depend .\objects\nrf_drv_uart.d)
+I (..\nRF_Drivers\inc\nrf_drv_uart.h)(0x56407685)
+I (..\nRF_Drivers\inc\nrf_uart.h)(0x56407685)
+I (..\Device\include\nrf.h)(0x5640769B)
+I (..\Device\include\nrf51.h)(0x5640769B)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm0.h)(0x5625B70C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625A350)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625A350)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625A350)
+I (..\nRF_Drivers\inc\system_nrf51.h)(0x5640769B)
+I (..\Device\include\nrf51_bitfields.h)(0x5640769B)
+I (..\Device\include\nrf51_deprecated.h)(0x5640769B)
+I (..\Device\include\compiler_abstraction.h)(0x5640769B)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x54C245B8)
+I (..\nRF_Libraries\inc\sdk_errors.h)(0x56407685)
+I (..\nRF_SoftDevice\inc\nrf_error.h)(0x56407687)
+I (..\nRF_Drivers\inc\nrf_drv_config.h)(0x58CA1268)
+I (..\nRF_Drivers\inc\nrf_drv_config_validation.h)(0x56407685)
+I (..\nRF_Libraries\inc\nrf_assert.h)(0x56407685)
+I (..\nRF_Libraries\inc\nordic_common.h)(0x56407685)
+I (..\nRF_Drivers\inc\nrf_drv_common.h)(0x56407685)
+I (..\nRF_Drivers\inc\nrf_gpio.h)(0x56407685)
+I (..\nRF_Libraries\inc\app_util_platform.h)(0x58CF4F97)
+I (..\nRF_SoftDevice\inc\nrf_soc.h)(0x56407687)
+I (..\nRF_SoftDevice\inc\nrf_svc.h)(0x56407687)
+I (..\nRF_SoftDevice\inc\nrf_error_soc.h)(0x56407687)
+I (..\nRF_Libraries\inc\app_error.h)(0x56407685)
+F (..\nRF_Drivers\src\nrf_drv_wdt.c)(0x56407685)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I..\APP\include -I..\Device\include -I..\nRF_BLE\inc -I..\nRF_Drivers\inc -I..\nRF_Libraries\inc -I..\nRF_SoftDevice\inc --c99-I D:\twx_overseas\OUTPUT\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.4.0\Device\Include-D__UVISION_VERSION="515" -D_RTE_ -DNRF51 -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10028 -DS110 -DNRF51 -DSOFTDEVICE_PRESENT -DSWI_DISABLE0 -DHARD_VER3-o .\objects\nrf_drv_wdt.o --omf_browse .\objects\nrf_drv_wdt.crf --depend .\objects\nrf_drv_wdt.d)
+I (..\nRF_Drivers\inc\nrf_drv_wdt.h)(0x56407685)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\nRF_Libraries\inc\sdk_errors.h)(0x56407685)
+I (..\nRF_SoftDevice\inc\nrf_error.h)(0x56407687)
+I (..\nRF_Drivers\inc\nrf_wdt.h)(0x56407685)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x54C245B8)
+I (..\Device\include\nrf.h)(0x5640769B)
+I (..\Device\include\nrf51.h)(0x5640769B)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm0.h)(0x5625B70C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625A350)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625A350)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625A350)
+I (..\nRF_Drivers\inc\system_nrf51.h)(0x5640769B)
+I (..\Device\include\nrf51_bitfields.h)(0x5640769B)
+I (..\Device\include\nrf51_deprecated.h)(0x5640769B)
+I (..\Device\include\compiler_abstraction.h)(0x5640769B)
+I (..\nRF_Drivers\inc\nrf_drv_config.h)(0x58CA1268)
+I (..\nRF_Drivers\inc\nrf_drv_config_validation.h)(0x56407685)
+I (..\nRF_Drivers\inc\nrf_drv_common.h)(0x56407685)
+I (..\nRF_Libraries\inc\nrf_assert.h)(0x56407685)
+I (..\nRF_Libraries\inc\app_util_platform.h)(0x58CF4F97)
+I (..\nRF_SoftDevice\inc\nrf_soc.h)(0x56407687)
+I (..\nRF_SoftDevice\inc\nrf_svc.h)(0x56407687)
+I (..\nRF_SoftDevice\inc\nrf_error_soc.h)(0x56407687)
+I (..\nRF_Libraries\inc\app_error.h)(0x56407685)
+F (..\nRF_Drivers\src\pstorage.c)(0x56407685)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I..\APP\include -I..\Device\include -I..\nRF_BLE\inc -I..\nRF_Drivers\inc -I..\nRF_Libraries\inc -I..\nRF_SoftDevice\inc --c99-I D:\twx_overseas\OUTPUT\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.4.0\Device\Include-D__UVISION_VERSION="515" -D_RTE_ -DNRF51 -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10028 -DS110 -DNRF51 -DSOFTDEVICE_PRESENT -DSWI_DISABLE0 -DHARD_VER3-o .\objects\pstorage.o --omf_browse .\objects\pstorage.crf --depend .\objects\pstorage.d)
+I (..\nRF_Drivers\inc\pstorage.h)(0x56407685)
+I (..\nRF_Drivers\inc\pstorage_platform.h)(0x56407685)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\Device\include\nrf.h)(0x5640769B)
+I (..\Device\include\nrf51.h)(0x5640769B)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm0.h)(0x5625B70C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625A350)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625A350)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625A350)
+I (..\nRF_Drivers\inc\system_nrf51.h)(0x5640769B)
+I (..\Device\include\nrf51_bitfields.h)(0x5640769B)
+I (..\Device\include\nrf51_deprecated.h)(0x5640769B)
+I (..\Device\include\compiler_abstraction.h)(0x5640769B)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54C245B8)
+I (..\nRF_Libraries\inc\nordic_common.h)(0x56407685)
+I (..\nRF_SoftDevice\inc\nrf_error.h)(0x56407687)
+I (..\nRF_Libraries\inc\nrf_assert.h)(0x56407685)
+I (..\nRF_SoftDevice\inc\nrf_soc.h)(0x56407687)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x54C245B8)
+I (..\nRF_SoftDevice\inc\nrf_svc.h)(0x56407687)
+I (..\nRF_SoftDevice\inc\nrf_error_soc.h)(0x56407687)
+I (..\nRF_Libraries\inc\app_util.h)(0x56407685)
+I (..\nRF_Libraries\inc\app_error.h)(0x56407685)
+F (..\nRF_Drivers\src\twi_hw_master.c)(0x58D66AED)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I..\APP\include -I..\Device\include -I..\nRF_BLE\inc -I..\nRF_Drivers\inc -I..\nRF_Libraries\inc -I..\nRF_SoftDevice\inc --c99-I D:\twx_overseas\OUTPUT\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.4.0\Device\Include-D__UVISION_VERSION="515" -D_RTE_ -DNRF51 -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10028 -DS110 -DNRF51 -DSOFTDEVICE_PRESENT -DSWI_DISABLE0 -DHARD_VER3-o .\objects\twi_hw_master.o --omf_browse .\objects\twi_hw_master.crf --depend .\objects\twi_hw_master.d)
+I (..\nRF_Drivers\inc\nrf_delay.h)(0x56407685)
+I (..\Device\include\nrf.h)(0x5640769B)
+I (..\Device\include\nrf51.h)(0x5640769B)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm0.h)(0x5625B70C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625A350)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625A350)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625A350)
+I (..\nRF_Drivers\inc\system_nrf51.h)(0x5640769B)
+I (..\Device\include\nrf51_bitfields.h)(0x5640769B)
+I (..\Device\include\nrf51_deprecated.h)(0x5640769B)
+I (..\Device\include\compiler_abstraction.h)(0x5640769B)
+I (..\nRF_Drivers\inc\twi_master.h)(0x58D669BC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x54C245B8)
+I (..\nRF_Drivers\inc\twi_master_config.h)(0x56407685)
+I (..\nRF_Drivers\inc\nrf_gpio.h)(0x56407685)
+F (..\nRF_Libraries\src\app_error.c)(0x56407685)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I..\APP\include -I..\Device\include -I..\nRF_BLE\inc -I..\nRF_Drivers\inc -I..\nRF_Libraries\inc -I..\nRF_SoftDevice\inc --c99-I D:\twx_overseas\OUTPUT\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.4.0\Device\Include-D__UVISION_VERSION="515" -D_RTE_ -DNRF51 -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10028 -DS110 -DNRF51 -DSOFTDEVICE_PRESENT -DSWI_DISABLE0 -DHARD_VER3-o .\objects\app_error.o --omf_browse .\objects\app_error.crf --depend .\objects\app_error.d)
+I (..\Device\include\nrf.h)(0x5640769B)
+I (..\Device\include\nrf51.h)(0x5640769B)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm0.h)(0x5625B70C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625A350)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625A350)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625A350)
+I (..\nRF_Drivers\inc\system_nrf51.h)(0x5640769B)
+I (..\Device\include\nrf51_bitfields.h)(0x5640769B)
+I (..\Device\include\nrf51_deprecated.h)(0x5640769B)
+I (..\Device\include\compiler_abstraction.h)(0x5640769B)
+I (..\nRF_Libraries\inc\app_error.h)(0x56407685)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x54C245B8)
+I (..\nRF_SoftDevice\inc\nrf_error.h)(0x56407687)
+I (..\nRF_Libraries\inc\nordic_common.h)(0x56407685)
+F (..\nRF_Libraries\src\app_fifo.c)(0x56407685)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I..\APP\include -I..\Device\include -I..\nRF_BLE\inc -I..\nRF_Drivers\inc -I..\nRF_Libraries\inc -I..\nRF_SoftDevice\inc --c99-I D:\twx_overseas\OUTPUT\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.4.0\Device\Include-D__UVISION_VERSION="515" -D_RTE_ -DNRF51 -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10028 -DS110 -DNRF51 -DSOFTDEVICE_PRESENT -DSWI_DISABLE0 -DHARD_VER3-o .\objects\app_fifo.o --omf_browse .\objects\app_fifo.crf --depend .\objects\app_fifo.d)
+I (..\nRF_Libraries\inc\app_fifo.h)(0x56407685)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54C245B8)
+I (..\nRF_SoftDevice\inc\nrf_error.h)(0x56407687)
+I (..\nRF_Libraries\inc\app_util.h)(0x56407685)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x54C245B8)
+I (..\Device\include\compiler_abstraction.h)(0x5640769B)
+F (..\nRF_Libraries\src\app_scheduler.c)(0x56407685)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I..\APP\include -I..\Device\include -I..\nRF_BLE\inc -I..\nRF_Drivers\inc -I..\nRF_Libraries\inc -I..\nRF_SoftDevice\inc --c99-I D:\twx_overseas\OUTPUT\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.4.0\Device\Include-D__UVISION_VERSION="515" -D_RTE_ -DNRF51 -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10028 -DS110 -DNRF51 -DSOFTDEVICE_PRESENT -DSWI_DISABLE0 -DHARD_VER3-o .\objects\app_scheduler.o --omf_browse .\objects\app_scheduler.crf --depend .\objects\app_scheduler.d)
+I (..\nRF_Libraries\inc\app_scheduler.h)(0x56407685)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\nRF_Libraries\inc\app_error.h)(0x56407685)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x54C245B8)
+I (..\nRF_SoftDevice\inc\nrf_error.h)(0x56407687)
+I (..\nRF_Libraries\inc\app_util.h)(0x56407685)
+I (..\Device\include\compiler_abstraction.h)(0x5640769B)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54C245B8)
+I (..\nRF_SoftDevice\inc\nrf_soc.h)(0x56407687)
+I (..\nRF_SoftDevice\inc\nrf_svc.h)(0x56407687)
+I (..\Device\include\nrf.h)(0x5640769B)
+I (..\Device\include\nrf51.h)(0x5640769B)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm0.h)(0x5625B70C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625A350)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625A350)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625A350)
+I (..\nRF_Drivers\inc\system_nrf51.h)(0x5640769B)
+I (..\Device\include\nrf51_bitfields.h)(0x5640769B)
+I (..\Device\include\nrf51_deprecated.h)(0x5640769B)
+I (..\nRF_SoftDevice\inc\nrf_error_soc.h)(0x56407687)
+I (..\nRF_Libraries\inc\nrf_assert.h)(0x56407685)
+I (..\nRF_Libraries\inc\app_util_platform.h)(0x58CF4F97)
+F (..\nRF_Libraries\src\app_timer.c)(0x56407685)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I..\APP\include -I..\Device\include -I..\nRF_BLE\inc -I..\nRF_Drivers\inc -I..\nRF_Libraries\inc -I..\nRF_SoftDevice\inc --c99-I D:\twx_overseas\OUTPUT\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.4.0\Device\Include-D__UVISION_VERSION="515" -D_RTE_ -DNRF51 -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10028 -DS110 -DNRF51 -DSOFTDEVICE_PRESENT -DSWI_DISABLE0 -DHARD_VER3-o .\objects\app_timer.o --omf_browse .\objects\app_timer.crf --depend .\objects\app_timer.d)
+I (..\nRF_Libraries\inc\app_timer.h)(0x56407685)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (..\nRF_Libraries\inc\app_error.h)(0x56407685)
+I (..\nRF_SoftDevice\inc\nrf_error.h)(0x56407687)
+I (..\nRF_Libraries\inc\app_util.h)(0x56407685)
+I (..\Device\include\compiler_abstraction.h)(0x5640769B)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54C245B8)
+I (..\Device\include\nrf.h)(0x5640769B)
+I (..\Device\include\nrf51.h)(0x5640769B)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm0.h)(0x5625B70C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625A350)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625A350)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625A350)
+I (..\nRF_Drivers\inc\system_nrf51.h)(0x5640769B)
+I (..\Device\include\nrf51_bitfields.h)(0x5640769B)
+I (..\Device\include\nrf51_deprecated.h)(0x5640769B)
+I (..\nRF_SoftDevice\inc\nrf_soc.h)(0x56407687)
+I (..\nRF_SoftDevice\inc\nrf_svc.h)(0x56407687)
+I (..\nRF_SoftDevice\inc\nrf_error_soc.h)(0x56407687)
+I (..\nRF_Drivers\inc\nrf_delay.h)(0x56407685)
+I (..\nRF_Libraries\inc\app_util_platform.h)(0x58CF4F97)
+F (..\nRF_Libraries\src\app_trace.c)(0x56407685)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I..\APP\include -I..\Device\include -I..\nRF_BLE\inc -I..\nRF_Drivers\inc -I..\nRF_Libraries\inc -I..\nRF_SoftDevice\inc --c99-I D:\twx_overseas\OUTPUT\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.4.0\Device\Include-D__UVISION_VERSION="515" -D_RTE_ -DNRF51 -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10028 -DS110 -DNRF51 -DSOFTDEVICE_PRESENT -DSWI_DISABLE0 -DHARD_VER3-o .\objects\app_trace.o --omf_browse .\objects\app_trace.crf --depend .\objects\app_trace.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x54C245B8)
+F (..\nRF_Libraries\src\nrf_assert.c)(0x56407685)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I..\APP\include -I..\Device\include -I..\nRF_BLE\inc -I..\nRF_Drivers\inc -I..\nRF_Libraries\inc -I..\nRF_SoftDevice\inc --c99-I D:\twx_overseas\OUTPUT\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.4.0\Device\Include-D__UVISION_VERSION="515" -D_RTE_ -DNRF51 -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10028 -DS110 -DNRF51 -DSOFTDEVICE_PRESENT -DSWI_DISABLE0 -DHARD_VER3-o .\objects\nrf_assert.o --omf_browse .\objects\nrf_assert.crf --depend .\objects\nrf_assert.d)
+I (..\nRF_Libraries\inc\nrf_assert.h)(0x56407685)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\Device\include\compiler_abstraction.h)(0x5640769B)
+F (..\nRF_Libraries\src\retarget.c)(0x56407685)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I..\APP\include -I..\Device\include -I..\nRF_BLE\inc -I..\nRF_Drivers\inc -I..\nRF_Libraries\inc -I..\nRF_SoftDevice\inc --c99-I D:\twx_overseas\OUTPUT\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.4.0\Device\Include-D__UVISION_VERSION="515" -D_RTE_ -DNRF51 -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10028 -DS110 -DNRF51 -DSOFTDEVICE_PRESENT -DSWI_DISABLE0 -DHARD_VER3-o .\objects\retarget.o --omf_browse .\objects\retarget.crf --depend .\objects\retarget.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\nRF_Libraries\inc\app_uart.h)(0x56407685)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x54C245B8)
+I (..\nRF_Libraries\inc\app_util_platform.h)(0x58CF4F97)
+I (..\Device\include\compiler_abstraction.h)(0x5640769B)
+I (..\Device\include\nrf.h)(0x5640769B)
+I (..\Device\include\nrf51.h)(0x5640769B)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm0.h)(0x5625B70C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625A350)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625A350)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625A350)
+I (..\nRF_Drivers\inc\system_nrf51.h)(0x5640769B)
+I (..\Device\include\nrf51_bitfields.h)(0x5640769B)
+I (..\Device\include\nrf51_deprecated.h)(0x5640769B)
+I (..\nRF_SoftDevice\inc\nrf_soc.h)(0x56407687)
+I (..\nRF_SoftDevice\inc\nrf_svc.h)(0x56407687)
+I (..\nRF_SoftDevice\inc\nrf_error_soc.h)(0x56407687)
+I (..\nRF_SoftDevice\inc\nrf_error.h)(0x56407687)
+I (..\nRF_Libraries\inc\app_error.h)(0x56407685)
+I (..\nRF_Libraries\inc\nordic_common.h)(0x56407685)
+F (..\nRF_Libraries\src\app_uart_fifo.c)(0x58A6B2DA)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I..\APP\include -I..\Device\include -I..\nRF_BLE\inc -I..\nRF_Drivers\inc -I..\nRF_Libraries\inc -I..\nRF_SoftDevice\inc --c99-I D:\twx_overseas\OUTPUT\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.4.0\Device\Include-D__UVISION_VERSION="515" -D_RTE_ -DNRF51 -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10028 -DS110 -DNRF51 -DSOFTDEVICE_PRESENT -DSWI_DISABLE0 -DHARD_VER3-o .\objects\app_uart_fifo.o --omf_browse .\objects\app_uart_fifo.crf --depend .\objects\app_uart_fifo.d)
+I (..\nRF_Libraries\inc\app_uart.h)(0x56407685)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x54C245B8)
+I (..\nRF_Libraries\inc\app_util_platform.h)(0x58CF4F97)
+I (..\Device\include\compiler_abstraction.h)(0x5640769B)
+I (..\Device\include\nrf.h)(0x5640769B)
+I (..\Device\include\nrf51.h)(0x5640769B)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm0.h)(0x5625B70C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625A350)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625A350)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625A350)
+I (..\nRF_Drivers\inc\system_nrf51.h)(0x5640769B)
+I (..\Device\include\nrf51_bitfields.h)(0x5640769B)
+I (..\Device\include\nrf51_deprecated.h)(0x5640769B)
+I (..\nRF_SoftDevice\inc\nrf_soc.h)(0x56407687)
+I (..\nRF_SoftDevice\inc\nrf_svc.h)(0x56407687)
+I (..\nRF_SoftDevice\inc\nrf_error_soc.h)(0x56407687)
+I (..\nRF_SoftDevice\inc\nrf_error.h)(0x56407687)
+I (..\nRF_Libraries\inc\app_error.h)(0x56407685)
+I (..\nRF_Libraries\inc\app_fifo.h)(0x56407685)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54C245B8)
+I (..\nRF_Drivers\inc\nrf_drv_uart.h)(0x56407685)
+I (..\nRF_Drivers\inc\nrf_uart.h)(0x56407685)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x54C245B8)
+I (..\nRF_Libraries\inc\sdk_errors.h)(0x56407685)
+I (..\nRF_Drivers\inc\nrf_drv_config.h)(0x58CA1268)
+I (..\nRF_Drivers\inc\nrf_drv_config_validation.h)(0x56407685)
+I (..\nRF_Libraries\inc\nrf_assert.h)(0x56407685)
+F (..\nRF_SoftDevice\src\softdevice_handler.c)(0x58A64C92)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I..\APP\include -I..\Device\include -I..\nRF_BLE\inc -I..\nRF_Drivers\inc -I..\nRF_Libraries\inc -I..\nRF_SoftDevice\inc --c99-I D:\twx_overseas\OUTPUT\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.4.0\Device\Include-D__UVISION_VERSION="515" -D_RTE_ -DNRF51 -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10028 -DS110 -DNRF51 -DSOFTDEVICE_PRESENT -DSWI_DISABLE0 -DHARD_VER3-o .\objects\softdevice_handler.o --omf_browse .\objects\softdevice_handler.crf --depend .\objects\softdevice_handler.d)
+I (..\nRF_SoftDevice\inc\softdevice_handler.h)(0x58A64C92)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54C245B8)
+I (..\nRF_Libraries\inc\nordic_common.h)(0x56407685)
+I (..\nRF_SoftDevice\inc\nrf_sdm.h)(0x56407687)
+I (..\nRF_SoftDevice\inc\nrf_svc.h)(0x56407687)
+I (..\Device\include\nrf.h)(0x5640769B)
+I (..\Device\include\nrf51.h)(0x5640769B)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm0.h)(0x5625B70C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625A350)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625A350)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625A350)
+I (..\nRF_Drivers\inc\system_nrf51.h)(0x5640769B)
+I (..\Device\include\nrf51_bitfields.h)(0x5640769B)
+I (..\Device\include\nrf51_deprecated.h)(0x5640769B)
+I (..\Device\include\compiler_abstraction.h)(0x5640769B)
+I (..\nRF_SoftDevice\inc\nrf_soc.h)(0x56407687)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x54C245B8)
+I (..\nRF_SoftDevice\inc\nrf_error_soc.h)(0x56407687)
+I (..\nRF_SoftDevice\inc\nrf_error.h)(0x56407687)
+I (..\nRF_SoftDevice\inc\nrf_error_sdm.h)(0x56407687)
+I (..\nRF_Libraries\inc\app_error.h)(0x56407685)
+I (..\nRF_Libraries\inc\app_scheduler.h)(0x56407685)
+I (..\nRF_Libraries\inc\app_util.h)(0x56407685)
+I (..\nRF_SoftDevice\inc\ble_stack_handler_types.h)(0x56407687)
+I (..\nRF_SoftDevice\inc\ble.h)(0x56407687)
+I (..\nRF_SoftDevice\inc\ble_ranges.h)(0x56407687)
+I (..\nRF_SoftDevice\inc\ble_types.h)(0x56407687)
+I (..\nRF_SoftDevice\inc\ble_gap.h)(0x56407687)
+I (..\nRF_SoftDevice\inc\ble_l2cap.h)(0x56407687)
+I (..\nRF_SoftDevice\inc\ble_err.h)(0x56407687)
+I (..\nRF_SoftDevice\inc\ble_gatt.h)(0x56407687)
+I (..\nRF_SoftDevice\inc\ble_gattc.h)(0x56407687)
+I (..\nRF_SoftDevice\inc\ble_gatts.h)(0x56407687)
+I (..\nRF_SoftDevice\inc\ant_stack_handler_types.h)(0x56407687)
+I (..\nRF_Libraries\inc\nrf_assert.h)(0x56407685)

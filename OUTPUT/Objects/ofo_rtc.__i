@@ -1,0 +1,6 @@
+-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I..\APP\include -I..\Device\include -I..\nRF_BLE\inc -I..\nRF_Drivers\inc -I..\nRF_Libraries\inc -I..\nRF_SoftDevice\inc --c99
+-I C:\Users\zhanglei\Desktop\ofo∫£Õ‚∞Ê\OUTPUT\RTE
+-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include
+-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.4.0\Device\Include
+-D__UVISION_VERSION="515" -D_RTE_ -DNRF51 -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10028 -DS110 -DNRF51 -DSOFTDEVICE_PRESENT -DSWI_DISABLE0 -DHARD_VER3
+-o .\objects\ofo_rtc.o --omf_browse .\objects\ofo_rtc.crf --depend .\objects\ofo_rtc.d "..\APP\source\ofo_RTC.c"

@@ -1,0 +1,11 @@
+.\objects\ofo_date.o: ..\APP\source\ofo_date.c
+.\objects\ofo_date.o: ..\APP\include\ofo_date.h
+.\objects\ofo_date.o: ..\nRF_Libraries\inc\app_timer.h
+.\objects\ofo_date.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\ofo_date.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\ofo_date.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\ofo_date.o: ..\nRF_Libraries\inc\app_error.h
+.\objects\ofo_date.o: ..\nRF_SoftDevice\inc\nrf_error.h
+.\objects\ofo_date.o: ..\nRF_Libraries\inc\app_util.h
+.\objects\ofo_date.o: ..\Device\include\compiler_abstraction.h
+.\objects\ofo_date.o: ..\nRF_Libraries\inc\nordic_common.h
